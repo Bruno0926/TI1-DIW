@@ -1,0 +1,148 @@
+.navigation{
+    display: flex;
+    border-bottom: 1px  solid #807e7e;
+    margin: 0px;
+    background-color: #a9a9aa;;
+}
+
+.logo{
+    margin: 5px 200px;
+    z-index: 1;
+    list-style: none;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.items-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    left: 270px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    height: 30px;
+    border-right: 1px solid #807e7e;
+}
+
+.header-items a{
+    text-decoration: none;
+    color: black;
+    font-family: OCR A Std, monospace;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 5px;
+    left: 270px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 30px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.corpo{
+    margin: auto;
+    width: 1080px;
+}
+
+.conteudo{
+    display: table;
+}
+
+.video{
+    display: table-cell;
+    float: left;
+
+}
+
+.texto{
+    display: table-cell;
+    float: right;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.imagem1{
+    display: inline-block;
+    margin-left: 20px
+}
+
+.imagem2{
+    display: inline-block;
+    margin-left: 20px
+}
+
+.imagem3{
+    display: inline-block;
+    margin-left: 20px
+}
+
+h1{
+    text-align: center;
+    background-color:darkgray;
+    color: darkblue;
+}
+
+h2{
+    text-align: left;
+    background-color:darkgray;
+    color: royalblue;
+}
+
+h3{
+    text-align: right;
+    color:royalblue;
+    margin-right: 380px;
+    text-decoration: underline;
+}
+
+
+.texto6{
+    display: table-cell;
+    float: right;
+    width: 450px;
+}
+
+
+.texto5{
+    display: table-cell;
+    float: left;
+    width: 450px;
+}
+.video1{
+    display: inline-block;
+    margin-left: 0px;
+    width: 200px;
+}
+
+.video2{
+    display: inline-block;
+    margin-left: 150px;
+    width: 200px;
+}
+
+.video3{
+    display: inline-block;
+    margin-left: 150px;
+    width: 80px;
+}
